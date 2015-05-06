@@ -1,0 +1,228 @@
+* {
+	color: #f0f1e1;
+}
+
+h1,h2,h3 {
+	font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+p {
+	font-family: garamond, sans-serif;
+	font-size: 1.1em;
+	line-height: 1.7em;
+}
+
+@media screen and (min-width: 400px) {
+
+/* ----- START MENU ----- */
+	.menu-wrap {
+		background: url('../img/dark_denim_cloth-small.png');
+		width: 100%;
+		height: 12.5em;
+	}
+
+	.menu ul {
+		text-align: center;
+	}
+
+	.menu > ul {
+		padding: 0 2em 0 0;
+	}
+
+	.menu li {
+		font-family: 'Oleo Script Swash Caps', cursive;
+		font-size: 1.5em;
+		list-style: none;
+	}
+
+	.menu a {
+    transition:all linear 0.15s;
+    text-decoration:none;
+	}
+
+	.menu li:hover > a {
+    color:#afa885;
+	}
+
+	.menu .arrow {
+		font-size: 11px;
+		padding-left: 1em;
+		line-height: 0%;
+	}
+
+	.menu > ul > li {
+		display: inline-block;
+		position: relative;
+	}
+
+	.menu > ul > li > a {
+		padding: 0.5em 1.5em 1em;
+		display: inline-block;
+	}
+
+	.sub-menu {
+    width: 110%;
+    padding: 0.5em 0.5em;
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    transition:opacity linear 0.15s;
+    background: rgba(25,25,25,0.9);
+    border-bottom-left-radius: 0.2em;
+    border-bottom-right-radius: 0.2em;
+	}
+
+	.menu li:hover .sub-menu {
+		z-index: 1;
+		opacity: 1;
+	}
+
+	.sub-menu li {
+		font-size: 0.8em;
+		font-family: garamond;
+	}
+
+	.sub-menu li a {
+		padding: 0.7em 0;
+		display: block;
+	}
+
+	#center-logo{
+		display: block;
+		margin: 0 auto;
+		padding-top: 1.5em;
+	}
+/* ----- END MENU ----- */
+
+	.translucent-box {
+		background-color: rgba(0,0,0,0.4);
+		padding: 1em 1em 1em 2em;
+		margin:	1em 10em 0 8em;
+		border-radius: 0.3em;
+	}
+
+	#index {
+		background: url('../img/49-comp.jpg') no-repeat center center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		height: 30em;
+		padding-top: 3em;
+	}
+
+	#index-h1 {
+		margin: 1em 0 0 3.5em;
+		font-size: 2.8em;
+	}
+
+	#about-us-1 {
+		background: url('../img/23-comp.jpg') no-repeat center center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		height: 20em;
+		padding-top: 15em;
+	}
+
+	#about-us-1-h1 {
+		margin: -3.5em 0 0 3.5em;
+		font-size: 2.8em;
+	}
+
+	#about-us-2 {
+		background: url('../img/55-comp.jpg') no-repeat center center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		height: 100vh;
+	}
+
+	.about-us-2-h1 {
+		margin: 0;
+		padding: 4em 0 0 4em;
+		font-size: 2.8em;
+	}
+
+	#about-us-3 {
+		background: url('../img/21-comp-crop3.jpg') no-repeat center center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		height: 100vh;
+	}
+
+	#baltimore-rye {
+		background: url('../img/18-comp.jpg') no-repeat center center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		height: 30em;
+		padding-top: 3em;
+	}
+
+	.product-h1 {
+		margin: 0;
+		padding: 1em 0 0 3.5em;
+		font-size: 2.8em;
+	}
+
+	#shot-tower-gin {
+		background: url('../img/63-comp.jpg') no-repeat center center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		height: 30em;
+		padding-top: 3em;
+	}
+
+	#apple-brandy {
+		background: url('../img/19-comp.jpg') no-repeat center center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		height: 30em;
+		padding-top: 3em;
+	}
+
+	#apple-brandy-h1 {
+		margin: 0;
+		padding: 1em 0 0 3.5em;
+		font-size: 2.8em;
+	}
+
+	#ginger-apple-liqueur {
+		background: url('../img/20-comp.jpg') no-repeat center center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		height: 30em;
+		padding-top: 3em;
+	}
+
+	#map-canvas {
+		width: 500px;
+		height: 400px;
+		margin: 2em auto;
+	}
+
+	footer {
+		height: 3em;
+		background-color: #eaecee;
+		color: #464849;
+	}
+
+	footer p {
+		color: #464849;
+		font-weight: bold;
+		margin: 0;
+		padding: 0.7em 0 0 2em;
+	}
+}

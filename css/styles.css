@@ -207,10 +207,35 @@ p {
 		padding-top: 3em;
 	}
 
+	#contact-us {
+		background: url('../img/wood_wall.jpg') no-repeat center center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		height: 30em;
+		padding: 3em 0;
+	}
+
 	#map-canvas {
-		width: 500px;
-		height: 400px;
-		margin: 2em auto;
+		width: 50%;
+		height: 80%;
+		margin: 0 auto;
+	}
+
+	svg {
+		display: block;
+		margin: auto;
+		padding-left: 13em;
+		fill: #f0f1e1;
+	}
+
+	.scroll-arrow svg:hover {
+		fill:#afa885;
+	}
+
+	#scroll-arrow2 {
+		padding-top: 3em;
 	}
 
 	footer {
